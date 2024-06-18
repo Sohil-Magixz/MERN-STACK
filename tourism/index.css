@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: "Playwrite PL", cursive;
+
+}
+.header{
+    background-image: url("res/bg.webp");
+    height: 560px;
+
+    background-repeat: no-repeat;
+    background-size:contain;
+    padding: 200px 550px;
+}
+.container{
+    background-color: white;
+
+    height: 320px;
+    width: 350px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 20px;
+    text-decoration: none;
+    padding-top: 20px;
+}
+h1{
+    font-family: "Playwrite PL", cursive;
+    font-size: 50px;
+}
+p{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+}
+button{
+    padding: 20px 50px;
+    color: aliceblue;
+    margin-top: 35px;
+    border-radius: 30px;
+    background-color: #45BAE4;
+    transition-duration: 0.3s;
+}
+button:hover{
+    background-color:antiquewhite;
+    color: black;
+    transition: 0.6s;
+    rotate: 100px;
+}
